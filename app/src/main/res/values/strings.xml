@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bee Application Framework</string>
+    <string name="title_activity_log_bee">LogBeeActivity</string>
+
+    <string name="flower_shape_prompt">Choose a shape</string>
+    <string name="flower_color_prompt">Choose a color</string>
+
+    <string-array name="flower_shape_arrays">
+        <item>N/A</item>
+        <item>Tubed</item>
+        <item>Flat</item>
+    </string-array>
+
+    <string-array name="flower_color_arrays">
+        <item>N/A</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Other Color</item>
+    </string-array>
+
+</resources>

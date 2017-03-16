@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beeapplicationframework">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Bee-cology: Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogBeeActivity_Manual"
+            android:label="Bee-cology: Log a Bee (Manual)"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogBeeActivity_Number"
+            android:label="Bee-cology: Log a Bee (Numbers)"
+            android:noHistory="true" />
+        <activity
+            android:name=".MissionActivity"
+            android:label="Bee-cology: Missions"
+            android:noHistory="true" />
+        <activity
+            android:name=".BeedexActivity"
+            android:label="Bee-cology: Bee-dex"
+            android:noHistory="true" />
+        <activity
+            android:name=".LogBeeActivity_Menu"
+            android:label="Bee-cology: Log a Bee (Menu)"
+            android:noHistory="true" />
+        <activity
+            android:name=".LogBeeActivity_Flower"
+            android:label="Bee-cology: Log a Bee (Flowers)"
+            android:noHistory="true" />
+        <activity
+            android:name=".LogBeeActivity_Guided"
+            android:label="Bee-cology: Log a Bee (Guided)"
+            android:noHistory="true" />
+        <activity android:name=".SQLTestActivity" />
+        <activity android:name=".SQLInsertActivity" />
+        <activity
+            android:name=".TutorialActivity"
+            android:label="Bee-cology: Tutorial"
+            android:noHistory="true" />
+        <activity
+            android:name=".Tutorial2Activity"
+            android:label="Bee-cology: Tutorial"
+            android:noHistory="true" />
+        <activity
+            android:name=".QuestionTreeBaseActivity"
+            android:label="Bee-cology: Log a Bee (Guided)"
+            android:noHistory="true" />
+        <activity
+            android:name=".QuestionTreeBranchActivity"
+            android:label="Bee-cology: Log a Bee (Guided)"
+            android:noHistory="true" />
+        <activity
+            android:name=".QuestionTreeRestartActivity"
+            android:label="Bee-cology: Log a Bee (Guided)"
+            android:noHistory="true" />
+        <activity
+            android:name=".PartSliderActivity"
+            android:label="Bee-cology: Log a Bee (Color Slider)"
+            android:noHistory="true" />
+        <activity
+            android:name=".InspectBeeActivity"
+            android:label="Bee-cology: Bee-dex"
+            android:noHistory="true" />
+        <activity android:name=".SubmitLogActivity"
+            android:label="Bee-cology: Log a Bee (Review Submission)"
+            android:noHistory="true" />
+        <activity android:name=".ConfirmSubmissionActivity"
+            android:label="Bee-cology: Log a Bee (Confirm Submission)"
+            android:noHistory="true" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inspect_bee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.beeapplicationframework.InspectBeeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="Bombus bomb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/latinText"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:text="Northern-eastern Test Bee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/commonText"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="2.89"
+                android:weightSum="2"
+                android:layout_marginBottom="20dp"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/beeView"
+                        app:srcCompat="@drawable/bee_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:text="Can be confused with:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/habitatTitle"
+                        android:textSize="16sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="Sample habitat text goes here"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/habitatText"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:text="Active Months:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timeTitle"
+                        android:textStyle="normal|bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:text="Sample times that the bee is active"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timeText"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:text="Description:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descTitle"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="3dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="The Northern-eastern-testern test bee is used for the testing of this app. Upon reading this description, please make sure to shoot an angry glare at the app creator, because if you are seeing this, it's NOT a feature. Please immediately uninstall this App or remove your phone from existence to correct the heinous error."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/descText"
+                    android:layout_weight="1"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <Button
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backButton"
+                android:backgroundTint="@android:color/darker_gray" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

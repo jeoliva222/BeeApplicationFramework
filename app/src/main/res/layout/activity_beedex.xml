@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_beedex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.beeapplicationframework.BeedexActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Bee-dex"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:id="@+id/titleText"
+                android:textSize="32sp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_dark" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/affinis_icon"
+                    android:id="@+id/bee1View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus affinis"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee1Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button1"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bimaculatus_icon"
+                    android:id="@+id/bee2View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus bimaculatus"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee2Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fervidus_icon"
+                    android:id="@+id/bee3View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus fervidus"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee3Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/griseocollis_icon"
+                    android:id="@+id/bee4View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus griseocollis"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee4Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/impatiens_icon"
+                    android:id="@+id/bee5View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus impatiens"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee5Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button5"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pennsylvanicus_icon"
+                    android:id="@+id/bee6View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus pennsylvanicus"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee6Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button6"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/perplexus_icon"
+                    android:id="@+id/bee7View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus perplexus"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee7Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button7"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ternarius_icon"
+                    android:id="@+id/bee8View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus ternarius"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee8Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button8"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/terricola_icon"
+                    android:id="@+id/bee9View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus terricola"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee9Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button9"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/vagans_icon"
+                    android:id="@+id/bee10View"
+                    android:layout_width="110dp" />
+
+                <TextView
+                    android:text="Bombus vagans"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bee10Text"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_width="140dp" />
+
+                <Button
+                    android:text="Learn more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button10"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f6f4b8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/backButton"
+                    android:onClick="goToMainActivity"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@android:color/darker_gray" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

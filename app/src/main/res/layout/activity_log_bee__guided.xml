@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_bee__guided"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.beeapplicationframework.LogBeeActivity_Guided">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:text="Select your bee's features:"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/titleText"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/left_arrow"
+                android:id="@+id/leftButton1"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginRight="30dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/head_pic"
+                android:id="@+id/imageHead"
+                android:layout_width="100dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/right_arrow"
+                android:id="@+id/rightButton1"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/left_arrow"
+                android:id="@+id/leftButton2"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginRight="30dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/body_pic"
+                android:id="@+id/imageBody"
+                android:layout_width="100dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/right_arrow"
+                android:id="@+id/rightButton2"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/left_arrow"
+                android:id="@+id/leftButton3"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginRight="30dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tail_pic"
+                android:id="@+id/imageTail"
+                android:layout_width="100dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/right_arrow"
+                android:id="@+id/rightButton3"
+                android:layout_weight="0.05"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backButton"
+                android:onClick="goToLBMenuActivity"
+                android:backgroundTint="@android:color/darker_gray" />
+
+            <Button
+                android:text="Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nextButton"
+                android:onClick="goToLBFlowerActivity"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:layout_marginLeft="128dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
