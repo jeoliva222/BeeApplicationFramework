@@ -82,12 +82,15 @@
             android:name=".InspectBeeActivity"
             android:label="Bee-cology: Bee-dex"
             android:noHistory="true" />
-        <activity android:name=".SubmitLogActivity"
+        <activity
+            android:name=".SubmitLogActivity"
             android:label="Bee-cology: Log a Bee (Review Submission)"
             android:noHistory="true" />
-        <activity android:name=".ConfirmSubmissionActivity"
+        <activity
+            android:name=".ConfirmSubmissionActivity"
             android:label="Bee-cology: Log a Bee (Confirm Submission)"
-            android:noHistory="true" ></activity>
+            android:noHistory="true" />
+        <activity android:name=".MyLogsActivity"></activity>
     </application>
 
 </manifest>

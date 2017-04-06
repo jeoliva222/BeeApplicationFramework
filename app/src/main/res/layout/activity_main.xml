@@ -86,6 +86,7 @@
                     android:layout_height="wrap_content"
                     android:text="My Logs"
                     android:id="@+id/myLogsButton"
+                    android:onClick="goToMyLogsActivity"
                     android:layout_weight="1"
                     android:backgroundTint="#f6f4b8"
                     android:layout_width="0dp"

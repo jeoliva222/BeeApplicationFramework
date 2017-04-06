@@ -32,14 +32,6 @@
         android:layout_alignParentEnd="true"
         android:textSize="18sp" />
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/addButton"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/personLayout"></LinearLayout>
-
     <Button
         android:text="Add Example"
         android:layout_width="wrap_content"
@@ -58,4 +50,13 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/deleteButton"
         android:backgroundTint="@android:color/holo_red_light" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/personLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></LinearLayout>
 </RelativeLayout>
