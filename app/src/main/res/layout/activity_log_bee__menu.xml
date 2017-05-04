@@ -33,12 +33,12 @@
 
                 <ImageView
                     android:id="@+id/beeView"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_height="220dp"
                     android:layout_weight="1"
-                    android:layout_gravity="top|center_vertical" />
+                    android:layout_gravity="top|center_vertical"
+                    android:layout_height="220dp" />
 
             </LinearLayout>
 
